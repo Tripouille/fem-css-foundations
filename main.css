@@ -1,0 +1,14 @@
+@import 'node_modules/modern-normalize/modern-normalize.css';
+
+:root {
+    --body-color: #FF7b54;
+}
+
+body {
+    background-color: var(--body-color);
+    color: #FFF;
+}
+
+body * {
+    color: inherit;
+}
