@@ -12,3 +12,19 @@ body {
 body * {
     color: inherit;
 }
+
+a {
+    text-decoration: none;
+    padding: 0.5rem 0;
+    display: inline-block;
+    text-decoration-thickness: 1px;
+    transition: scale 0.1s ease-in-out;
+}
+
+a:is(:hover, :focus) {
+    text-decoration: underline #FAFAFA wavy;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+    text-underline-position: below;
+    scale: 1.1;
+}
